@@ -41,7 +41,7 @@ Before getting started, make sure you have the following prerequisites installed
 
    
 
-4. Translate sign gestures: Make different sign gestures in front of the camera, and the translator will recognize them and display the corresponding text or spoken language output.
+Translate sign gestures: Make different sign gestures in front of the camera, and the translator will recognize them and display the corresponding text or spoken language output.
 
 <p align="center">
   <img src=https://github.com/Er-AI-GK/oneAPI-Sign-Language-Gesture-Translator/assets/106463633/3f11693b-a712-4254-b95c-1da3efd40fcc alt="Image Description">
