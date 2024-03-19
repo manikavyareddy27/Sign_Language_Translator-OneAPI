@@ -97,15 +97,6 @@ We would like to thank the developers of MediaPipe and the Intel OneAPI Platform
 - Intel OneAPI Platform documentation: https://devcloud.intel.com/oneapi/get_started/
 - MediaPipe documentation: https://google.github.io/mediapipe/
 
- <h2 align=center>Intel DevMesh Profile</h2>
-https://devmesh.intel.com/users/gopalakrishnan-d
-
- <h2 align=center>Intel DevMesh Projects</h2>
- 
-- Intel oneAPI : Sign Language Gesture Translator => https://devmesh.intel.com/projects/oneapi-sign-language-translator 
-
-- Intel oneAPI : Emotion Recogniton using NLP => https://devmesh.intel.com/projects/intel-oneapi-based-emotion-recognition-using-nlp-audio-text
-
 ## Get Start Your Intel oneAPI project 
 ==> https://devcloud.intel.com/oneapi/
 ==> www.oneapi.io/open-source/
