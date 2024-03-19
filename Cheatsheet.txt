@@ -1,0 +1,132 @@
+-------------------ONE DNN-------------------------
+
+
+What it does?
+oneDNN can be used for implementing deep learning models for tasks such as image classification or natural language processing.
+It can be used for the following tasks-
+
+- Image Classification: oneDNN can be used to implement deep learning models such as Convolutional Neural Networks (CNNs) for image classification tasks.
+
+- Object Detection: oneDNN can be used to implement object detection models such as You Only Look Once (YOLO) and Faster R-CNN.
+
+- Natural Language Processing: oneDNN can be used to implement deep learning models for NLP tasks such as sentiment analysis, named entity recognition, and language translation.
+
+- Speech Recognition: oneDNN can be used to implement deep learning models for speech recognition tasks such as automatic speech recognition (ASR) and speaker identification.
+
+- Recommendation Systems: oneDNN can be used to implement deep learning models for recommendation systems, which can be used to suggest products or content to users based on their preferences and behavior.
+
+
+***Please go through the following video to set it up in devcloud https://youtu.be/Cz32tlMs78c
+
+
+------CODES in VIDEO--------------
+
+mkdir MLoneAPI
+
+cd MLoneAPI
+
+source  /glob/development-tools/versions/oneapi/2022.3.1/inteloneapi/setvars.sh 
+
+conda activate base
+
+pip install ipykernel
+python -m ipykernel install --user --name 2022.3.1 --display-name "oneAPI 2022.3.1"
+
+
+--------------------------------------
+
+!pip install onednn-cpu-gomp
+
+import oneDNN as dnn
+
+
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'
+
+os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------ONE DAL-------------------------
+
+What it does?
+OneDAL can be used for data preprocessing and transformation tasks such as feature engineering.
+It can be used for the following tasks-
+
+- Data Preprocessing: OneDAL can be used for data preprocessing tasks such as feature engineering, normalization, and data imputation.
+
+- Dimensionality Reduction: OneDAL can be used for reducing the dimensionality of high-dimensional datasets using techniques such as Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE).
+
+- Clustering: OneDAL can be used for implementing clustering algorithms such as K-means, hierarchical clustering, and DBSCAN.
+
+- Regression: OneDAL can be used for implementing regression algorithms such as linear regression, logistic regression, and support vector regression.
+
+- Collaborative Filtering: OneDAL can be used for implementing collaborative filtering algorithms for recommendation systems, which can be used to suggest items to users based on their similarity to other users.
+
+----------Code-----------
+
+!pip install scikit-learn-intelex
+
+
+------BEFORE EVERY MODEL-------
+
+from sklearnex import patch_sklearn
+patch_sklearn()
+
+
+----------SVM--------
+
+from sklearnex.svm import SVC
+from sklearnex import patch_sklearn
+patch_sklearn()
+
+
+----------LG--------
+
+
+from sklearn.linear_model import LogisticRegression
+from sklearnex import patch_sklearn
+patch_sklearn()
+
+
+---------RF----------
+
+
+from sklearnex import patch_sklearn
+patch_sklearn()
+from sklearn.ensemble import RandomForestClassifier
+
+
+---------ANY OTHER Model-------
+
+
+  from sklearnex import patch_sklearn
+  patch_sklearn()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------
