@@ -38,25 +38,8 @@ Before getting started, make sure you have the following prerequisites installed
 
 <h2 align=center>Usage</h2>
 
-1. Clone the repository: Clone the project repository from GitHub using the following command:
 
-   ```bash
-   !git clone https://github.com/Er-AI-GK/oneAPI-Sign-Language-Gesture-Translator.git
-   ```
-
-2. Set up the environment: Open a terminal and navigate to the project directory. Activate the Intel OneAPI environment by running the following command:
-
-   ```bash
-   source <path-to-intel-oneapi>/setvars.sh
-   ```
-
-3. Run the translator: Execute the following command in the terminal to start the Sign Gesture Language Translator:
-
-   ```bash
-   SLT Main.ipynb
-   ```
-
-   The translator will launch and begin capturing video from your default camera.
+   
 
 4. Translate sign gestures: Make different sign gestures in front of the camera, and the translator will recognize them and display the corresponding text or spoken language output.
 
